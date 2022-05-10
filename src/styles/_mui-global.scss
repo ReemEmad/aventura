@@ -1,0 +1,29 @@
+@import "./_variables.scss";
+
+.MuiButton-outlined {
+  border: 1px solid #ffff !important;
+  color: #ffff !important;
+  margin-left: 20px !important;
+}
+
+.MuiButton-text {
+  color: $mainblue !important;
+  font-weight: bold !important;
+  padding-left: 20px !important;
+}
+
+.MuiButton-containedSizeSmall {
+  color: $white !important;
+}
+.css-1qbkelo-MuiCardHeader-content {
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .css-1cndkqf-MuiToolbar-root {
+    min-height: 85px !important;
+  }
+}
+.css-1m9128y {
+  display: none;
+}

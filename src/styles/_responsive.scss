@@ -1,0 +1,135 @@
+@import "./_mui-global.scss";
+@import "./_variables.scss";
+@import "./_mixins.scss";
+
+@media screen and (max-width: 480px) {
+  // * {
+  //   overflow: scroll;
+  // }
+  .paper {
+    div {
+      width: fit-content;
+    }
+    .CheckButton {
+      // @include center-item-absolute;
+      top: 70%;
+    }
+  }
+
+  .aventura-experience {
+    padding: 80px 35px;
+    font-size: small;
+    @include flex-center;
+    // gap: 9px;
+  }
+
+  .aventura-programs__carousel {
+    padding: unset;
+
+    img {
+      width: 270px;
+      height: 150px;
+    }
+  }
+
+  .aventura-destination {
+    padding: 100px 0px;
+    &__package {
+      flex-direction: column;
+      img {
+        width: 200px;
+        height: 120px;
+      }
+    }
+  }
+
+  .css-frcnla {
+    width: 80%;
+  }
+  .aventura-why {
+    flex-direction: column-reverse;
+    height: fit-content;
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
+
+  .aventura-why__left {
+    width: 99%;
+    .css-i33vkc-MuiTypography-root {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .MuiButton-outlined {
+      margin-left: unset !important;
+    }
+    // img {
+    //   width: 300px;
+    //   height: 250px;
+    // }
+  }
+
+  .aventura-youtube {
+    flex-direction: column;
+    padding: 10px 5px 35px;
+
+    &__right {
+      width: 99%;
+    }
+  }
+
+  .aventura-request {
+    & .aventura-request__p {
+      font-size: medium;
+      width: 80%;
+      margin: 30px auto;
+    }
+  }
+
+  .aventura-endorsements {
+    flex-direction: column-reverse;
+    align-items: center;
+    &__carousel {
+      width: 99%;
+    }
+  }
+  .aventura-footer__links {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    font-size: 16px;
+  }
+  .paper .CheckButton {
+    top: 70%;
+  }
+  .aventura-experience{
+
+    padding: 5px 60px 40px;
+    &__icons{
+      // padding: 80px 35px;
+      // font-size: small;
+      padding-top: 25px;
+      padding-bottom: 5px;
+      @include flex-space-evenly;
+      gap: 50px;
+      background: $lightGrey;
+      // flex-direction: column;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .text {
+    font-size: 16px;
+  }
+  
+}
+
+@media screen and (max-width: 1200px) {
+  .text {
+    font-size: 16px;
+  }
+ 
+}
